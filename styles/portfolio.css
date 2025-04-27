@@ -187,11 +187,12 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
 
 @media screen and (max-width: 576px) {
     .resume-container,
+    .about-items,
     footer,
     .skills-container{
         flex-direction: column;
     }
-    footer{
+    footer, .about{
         padding: 20px;
     }
     .footer-column{
